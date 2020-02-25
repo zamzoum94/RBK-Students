@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Jordon</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-light bg-light">
+              <a class="navbar-brand" href="index.html">HOME</a>
+              <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search " id="searchValue">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="search">Search</button>
+              </form>
+            </nav>
+        </header>
+        <div class="container" style="margin-top: 20px;">
+            <div class="row">
+                <div class="col-md">
+                    <input type="text" id="filter" placeholder="What are you looking for?"/><br><br>
+                </div>
+                <div class="col-md">
+                    <label for="sort">Sort</label>
+                    <select id="sort">
+                        <option value="emp">---</option>
+                        <option value="acc">Accending names</option>
+                        <option value="dec">Decending names</option>
+                        <option value="age">age</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="container">
+                
+            </div>   
+        </section>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="js/ext.js"></script>
+        <script src="js/jordon.js"></script>
+    </body>
+</html>

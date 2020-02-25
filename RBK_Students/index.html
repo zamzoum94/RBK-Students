@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>RBK Students</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-light bg-light">
+              <a class="navbar-brand" href="index.html">HOME</a>
+              <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search " id="searchValue">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="search">Search</button>
+              </form>
+            </nav>
+        </header>
+        <section style="margin-top : 100px">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md">
+                        <div class="row">
+                            <div class ="col-md">
+                                <a href="tunisia.html"><input type="button" value="Tunisia" id="tunisia" class="btn btn-lg btn-primary"/></a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md">
+                                 <a href="jordon.html"><input type="button" value="Jordon" id="jordon" class="btn btn-lg btn-primary" style="margin-top: 50px;"/></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <form action="#" id="form">
+                            <div class="row">
+                                <div class="col-md">
+                                    <label for="firstName">First Name: </label>
+                                </div>
+                                <div class="col-md">
+                                    <input type="text" name="firstName" id="firstName" placeholder="Type your first name" required/>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md">
+                                    <label for="lastName">Last name: </label>
+                                </div>
+                                <div class="col-md">
+                                    <input type="text" name="lastName" id="lastName" placeholder="Type your last name" required/>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md">
+                                    <label for="age">Age </label>
+                                </div>
+                                <div class="col-md">
+                                    <input type="text" name="age" id="age" placeholder="Enter your age"> 
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md">
+                                    <label for="sexe">Sexe: </label>
+                                </div>
+                                <div class="col-md">
+                                    <input type="radio" name="sexe" value="male" checked/><label for="sexe">Male </label>
+                                    <input type="radio" name="sexe" value="female"/><label for="sexe">Female</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md">
+                                    <label for="local">Choose Country: </label>
+                                </div>
+                                <div class="col-md">
+                                    <select name="local" id="local">
+                                        <option value="tunisia">Tunisia</option>
+                                        <option value="jordon">Jordan</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md">
+                                    <label for="rank">Class: </label>
+                                </div>
+                                <div class="col-md">
+                                    <select name="rank" id="rank">
+                                        <option value="junior">Junior</option>
+                                        <option value="senior">Senior</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md">
+                                    <label for="image">Picture: </label>
+                                </div>
+                                <div class="col-md">
+                                    <input type="text" name="image" id="image" placeholder="pass your image source"required/>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md">
+                                    <label for="github">Github account: </label>
+                                </div>
+                                <div class="col-md">
+                                    <input type="text" name="github" id="github" placeholder="Input your username" required/>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md">
+                                    <input type="button" value="Add" id="submit"/>
+                                    <input type="reset" value="Reset"/>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="js/ext.js"></script>
+    </body>
+</html>
