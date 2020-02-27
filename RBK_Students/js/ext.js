@@ -246,70 +246,7 @@ var data = [{
     }
     Elemnts in form will be added
 */
-/*
--- CONSTRAINTS --
-$("#firstName").focusout(function(){
-    var val = $(this).val().trim();
-    if(val.length < 8){
-        alert("First name must have at least 8 charaters");
-        $(this).css("background-color", "red");
-        return;
-    } else{
-        for(var i = 0; i < val.length; i++){
-            if(val[i] < 'A' || val[i] > 'Z' && val[i] < 'a' || val[i] > 'z'){
-                alert("Name must contain only charaters");
-                $(this).css("background-color", "red");
-                return;
-            }
-        }
-    }
-    $(this).css("background-color", "green");
-});
 
-$("#lastName").focusout(function(){
-    var val = $(this).val().trim();
-    if(val.length < 8){
-        alert("Name must have at least 8 charaters");
-        $(this).css("background-color", "red");
-        return;
-    } else{
-        for(var i = 0; i < val.length; i++){
-            if(val[i] < 'A' || val[i] > 'Z' && val[i] < 'a' || val[i] > 'z'){
-                alert("Last name must contain only charaters");
-                $(this).css("background-color", "red");
-                return;
-            }
-        }
-    }
-    $(this).css("background-color", "green");
-});
-
-$("#userMail").focusout(function(){
-    var val = $(this).val().trim();
-    if(val.indexOf("@") !== val.indexOf("@")){
-        alert("Mail can contain only one @");
-        $(this).css("background-color", "red");
-        return;
-    }
-    if(val.indexOf("@") < 4){
-        alert("Mail name must be at least 4");
-        $(this).css("background-color", "red");
-        return;
-    }
-    var str = val.slice(val.indexOf("@") + 1);
-    if(str.indexOf(".") !== str.lastIndexOf(".")){
-        alert("mail must contian only 1 .");
-        $(this).css("background-color", "red");
-        return;
-    }
-    if(str.indexOf(".") === str.length - 1){
-        alert("mail must contain . something");
-        $(this).css("background-color", "red");
-        return;
-    }
-    $(this).css("background-color", "green");
-});
-*/
 $("#submit").click(function(){
     var firstName = $("#firstName").val().trim();
     var lastName = $("#lastName").val().trim();
